@@ -87,8 +87,21 @@ int main()
 				break;
 				case 11:printf("\t\tDICIEMBRE\t%d",anio);
 				break;
-				}
-					}
+
+		if (febrero==29)
+			{
+			switch (mes)
+				{
+					case 0:
+					moduloMes=0;
+					break;
+					case 1:
+					moduloMes=3;
+					break;
+					case 2:
+
+
+
 
 	semana=((anio-1)%7+ ((anio-1)/4 -(3*((anio-1)/100+1)/4))%7+moduloMes+1%7)%7;
 		printf("\nDo\tLu\tMar\tMier\tJue\tVier\tSab\n");
